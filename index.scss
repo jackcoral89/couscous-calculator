@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+html, body {
+	font-family: 'Cairo', sans-serif;
+	height: 100%;
+	background: #98fbd2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.calculator {
+		color: #fff;
+		.header {
+			border: 1px solid #fff;
+			height: 60px;
+			background: purple;
+			text-align: right;
+			padding: 1rem;
+			font-size: 3rem;
+		}
+		.input {
+			display: flex;
+			.button {
+				cursor: pointer;
+				width: 40px;
+				text-align: center;
+				background: #333232;
+				padding: 1rem;
+				border: 1px solid #fff;
+				&.result {
+					width: 188px;
+				}
+			}
+		}
+	}
+}
